@@ -80,7 +80,7 @@ def processCommand(c):
                 speak(article['title'])
 
     else:
-        # Let OpenAI handle the request
+        # Let gemini handle the request
         output = aiProcess(c)
         speak(output) 
 
